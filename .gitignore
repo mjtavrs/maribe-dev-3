@@ -1,0 +1,79 @@
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Arquivos de cache
+.cache/
+.parcel-cache/
+
+# Arquivos de ambiente e configurações sensíveis
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.local.php
+
+# Arquivos de upload e dados sensíveis
+uploads/
+data/
+*.sql
+*.db
+
+# Arquivos de backup do banco de dados
+backup/
+*.sql.gz
+*.sql.bak
+
+# Arquivos de sessão PHP
+sessions/
+tmp/
+
+# Arquivos de cache PHP
+cache/
+*.cache
+
+# Arquivos de dependências (se usar composer)
+vendor/
+composer.lock
+
+# Arquivos de build e distribuição
+dist/
+build/
+out/
+
+# Arquivos de documentação gerada
+docs/build/
+
+# Arquivos de teste
+test-results/
+coverage/
+
+# Arquivos específicos do projeto
+# Adicione aqui arquivos específicos que não devem ser versionados
+# Exemplo: arquivos de configuração local, imagens de teste, etc.

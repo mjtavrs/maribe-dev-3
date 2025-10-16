@@ -1,0 +1,55 @@
+User-agent: *
+Allow: /
+
+# Permitir acesso às páginas principais
+Allow: /index.html
+Allow: /sobre.html
+Allow: /projetos.html
+Allow: /contato.html
+Allow: /orcamento.html
+Allow: /projeto.html
+
+# Permitir acesso às imagens e assets
+Allow: /src/assets/images/
+Allow: /public/images/
+Allow: /src/assets/icons/
+Allow: /src/styles/
+Allow: /src/scripts/
+
+# Bloquear arquivos e diretórios sensíveis
+Disallow: /php/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /admin/
+Disallow: /backup/
+Disallow: /uploads/
+Disallow: /data/
+
+# Bloquear arquivos de sistema e configuração
+Disallow: /*.php$
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /*.env$
+Disallow: /*.config$
+Disallow: /.git/
+Disallow: /.gitignore
+Disallow: /composer.json
+Disallow: /composer.lock
+
+# Bloquear arquivos temporários
+Disallow: /*.tmp$
+Disallow: /*.temp$
+Disallow: /*.bak$
+Disallow: /*.backup$
+
+# Bloquear arquivos de cache
+Disallow: /cache/
+Disallow: /.cache/
+Disallow: /*.cache$
+
+# Permitir acesso ao sitemap
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Localização do sitemap
+Sitemap: https://maribe.arq.br/sitemap.xml
